@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f5ebe4">
+  <title>سامر & سمر | دعوة زفاف</title>
+  <meta name="description" content="بكل الحب، يسعدنا دعوتكم لمشاركتنا فرحتنا في ٢٧ يوليو ٢٠٢٧.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="invitation">
+    <section id="envelopeScreen" class="envelope-screen">
+      <img src="images/envelope.webp" alt="مغلف دعوة سامر وسمر">
+      <button id="sealButton" class="seal-hit" aria-label="فتح دعوة سامر وسمر"></button>
+      <span class="seal-glow" aria-hidden="true"></span>
+      <span class="opening-flash" aria-hidden="true"></span>
+      <span class="light-sweep" aria-hidden="true"></span>
+      <span id="sparkles" class="sparkles" aria-hidden="true"></span>
+    </section>
+
+    <div id="pages" class="pages">
+      <section class="page"><img src="images/cover.webp" alt="حفل زفاف سامر وسمر"></section>
+
+      <section class="page date-page">
+        <img src="images/date.webp" alt="اكشطي لكشف تاريخ الحفل">
+        <div class="scratch-row" dir="ltr">
+          <div class="scratch-tile" data-value="٢٧" aria-label="اليوم: ٢٧"><span>٢٧</span><canvas></canvas></div>
+          <div class="scratch-tile" data-value="يوليو" aria-label="الشهر: يوليو"><span>يوليو</span><canvas></canvas></div>
+          <div class="scratch-tile" data-value="٢٠٢٧" aria-label="السنة: ٢٠٢٧"><span>٢٠٢٧</span><canvas></canvas></div>
+        </div>
+      </section>
+
+      <section class="page"><img src="images/details.webp" alt="تفاصيل حفل زفاف سامر وسمر"></section>
+
+      <section class="page action-page">
+        <img src="images/location.webp" alt="الموقع قاعة إيلياء">
+        <a class="image-action location-action" href="https://maps.app.goo.gl/Muxzvd15W3irHd388?g_st=ic" target="_blank" rel="noopener" aria-label="فتح موقع قاعة إيلياء على الخريطة"></a>
+      </section>
+
+      <section class="page action-page">
+        <img src="images/rsvp.webp" alt="تأكيد الحضور لحفل سامر وسمر">
+        <a id="whatsappLink" class="image-action rsvp-action" target="_blank" rel="noopener" aria-label="تأكيد الحضور عبر واتساب"></a>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
